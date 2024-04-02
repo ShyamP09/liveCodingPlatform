@@ -13,7 +13,6 @@ function App() {
           <Route path="/:id" exact component={Editor} />
         </Switch>
       </div>
-      {/* some comment */}
     </BrowserRouter>
   );
 }

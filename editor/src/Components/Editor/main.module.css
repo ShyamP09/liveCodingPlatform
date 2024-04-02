@@ -1,5 +1,16 @@
+.editorBox {
+  margin: 20px;
+  display: flex;
+  background-image: linear-gradient(to bottom right, red, yellow);
+  width: 96%;
+  height: 90vh;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
 .editor {
-    height: 100vh;
-    width: 100%; 
-    overflow: hidden;
+  height: 80vh;
+  width: 82%;
+  overflow: hidden;
 }

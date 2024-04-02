@@ -1,46 +1,61 @@
 .home {
-    background: #000000bf;
-    text-align: center;
-    padding: 5% 0%;
+  background: #000000bf;
+  background-image: linear-gradient(
+      to right,
+      rgba(11, 116, 196, 0.945),
+      rgba(0, 0, 0, 0.611),
+      black,
+      rgba(225, 28, 28, 0.587)
+    ),
+    url("https://i.postimg.cc/ryW7Qfsg/Default-collaborative-Coding-in-IT-industry-Dark-theme-Silent-3.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  height: 100vh;
+  text-align: center;
+  padding: 5% 0%;
 }
 
 .home > * {
-    color: white;
+  color: #f9004d;
 }
 
 .home h1 {
-    font-size: 70px;
-    color: #FFDE2E;
+  font-size: 70px;
+  font-weight: bolder;
+  color: white;
 }
 
 .home p {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .home .heading {
-    font-size: 30px;
-    margin: 30px;
-    color: white;
+  font-size: 30px;
+  margin: 30px;
+  font-weight: bolder;
+  color: #00f9b2;
+  margin-bottom: 50px;
 }
 
 .home .description {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .btn {
-    padding: 1% 3%;
+  padding: 1% 3%;
 }
 
-.desc{
-    color: cadetblue;
+.desc {
+  color: rgb(0, 0, 0);
 }
 
 .githubcorner {
-    right: 0;
-    top: 0;
-    position: absolute;
-  }
+  right: 0;
+  top: 0;
+  position: absolute;
+}
 
-  .githubcorner:hover .octo-arm {
-    animation: octocat-wave 560ms ease-in-out;
-  }
+.githubcorner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}

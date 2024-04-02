@@ -41,18 +41,20 @@ const EditorComponent = (props) => {
             handleVideoSocket={handleVideoSocket}
           />
         )}
-        <div className={styles.editor}>
-          <MonacoEditor
-            // width="600"
-            // height="400"
-            automaticLayout={true}
-            language={lang}
-            theme="vs-dark"
-            value={code}
-            options={options}
-            editorDidMount={editorDidMount}
-            onChange={editorOnChange}
-          />
+        <div className={styles.editorBox}>
+          <div className={styles.editor}>
+            <MonacoEditor
+              // width="600"
+              // height="400"
+              automaticLayout={true}
+              language={lang}
+              theme="vs-dark"
+              value={code}
+              options={options}
+              editorDidMount={editorDidMount}
+              onChange={editorOnChange}
+            />
+          </div>
         </div>
       </Col>
       <Col lg={4} sm={8}>
